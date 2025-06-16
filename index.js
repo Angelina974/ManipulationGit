@@ -1,18 +1,15 @@
-/**
- * Greet a user by name.
- * @param {string} name - The user's name.
- */
+document.addEventListener("DOMContentLoaded", () => {
+main();
+
+console.log("test pre-commit")
+});
+
+
 function greet(name) {
   console.log(`Bienvenue, ${name} !`);
 }
 
-/**
- * Entry point of the app.
- */
 function main() {
-  const userName = 'David';
-  greet(userName);
+  const userName = 'Manon';
+  greet(userName + " est la bienvenue");
 }
-
-// Run the main function
-main();
