@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 main();
 
-console.log("test pre-commit")
+console.log("test pre-commit
 });
 
 
