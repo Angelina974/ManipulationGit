@@ -1,16 +1,33 @@
-# Projet Développement Web
+# Projet du groupe 3 : CHAMANIER Enzo, GROSSI Julia, FREGONESE Tom, VITRAT Clément, LAFOSSE Manon
 
-Ce projet démontre l'utilisation de Git avec :
+Ce projet a pour but de démontrer la gestion propre du code avec Git, la qualité du code avec ESLint, l’automatisation des hooks Git avec `pre-commit` et la gestion des versions avec Commitizen et Semantic Versioning.
 
-- 📝 Commits conventionnels via Commitizen
-- 🔢 Versionnage sémantique via Standard Version
-- ✅ Vérifications pré-commit via Husky + ESLint
+Ce projet a pour but de montrer la gestion du code de façon correcte et formater, avec eslint, les hooks git et precommit qui nous permet de corriger les erreurs avant de commit. 
 
-## Commandes utiles
+Pour la gestion des version on utilise Commitzen & Semantic Versionning.
 
-- `npm run commit` → Créer un commit formaté
-- `npm run release` → Créer une nouvelle version (MAJ `package.json` et changelog)
-- `npm run lint` → Linter les fichiers JS
+***
 
----
+## Fonctionnalités
 
+ **Git** : Controle des versions
+ **eslint** : Garantir les bons commit
+ **precommit** : hooks automatiques qui envoies en eslint
+ **Commitizen** : Message de commit clair et controllé
+ **Versioning** : gestion des versions `MAJOR.MINOR.PATCH`.
+
+***
+
+## Prérequis
+
+- Node.js (version >= 14 recommandée)
+- Python (pour `pre-commit`)
+- Git
+
+***
+
+## Installation
+
+1. Cloner le projet
+```bash
+git clone https://github.com/Angelina974/ManipulationGit.git
