@@ -1,4 +1,4 @@
-# Projet du groupe 3 : CHAMANIER Enzo, GROSSI Julia, FREGONESE Tom, VITRAT Clément, LAFOSSE Manon
+# Projet du groupe 3 / les petits ploufs : CHAMANIER Enzo, GROSSI Julia, FREGONESE Tom, VITRAT Clément, LAFOSSE Manon
 
 Ce projet a pour but de démontrer la gestion propre du code avec Git, la qualité du code avec ESLint, l’automatisation des hooks Git avec `pre-commit` et la gestion des versions avec Commitizen et Semantic Versioning.
 
